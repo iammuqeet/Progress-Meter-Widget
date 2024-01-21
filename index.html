@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h2>Progress Visualizer Meter</h2>
+  <div class="outer-circle">
+    <div class="inner-circle">
+      <div class="indicators">
+      </div>
+      <div class="inner-small-circle"></div>
+      <div id="needle"></div>
+    </div>
+  </div>
+
+  <div>
+    <h1 id="percentage">0%</h1>
+  </div>
+  
+  <div>
+    <label>
+      Enter Percentage = 
+    </label>
+    <input type="number" id="inputValue" value="67" min="0" max="100" oninput="updateMeterAndPercentage(this.value)">
+  </div>
+</body>
+</html>
