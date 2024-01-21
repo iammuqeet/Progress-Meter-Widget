@@ -41,10 +41,6 @@ https://github.com/iammuqeet/Progress-Meter-Widget/assets/99136549/8fef90eb-d913
 - Needle rotation animation and percentage updates are handled via JavaScript.
 - jQuery is utilized for handling input validation and preserving the old input value.
 
-## Contributors
-
-- [Muqeet Ahmad]
-
 ## License
 
 This project is Open source.
