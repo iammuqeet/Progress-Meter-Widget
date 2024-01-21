@@ -33,6 +33,7 @@ Simply open `index.html` in a web browser to visualize the progress meter.
 
 ## Demo Video
 
+https://github.com/iammuqeet/Progress-Meter-Widget/assets/99136549/8fef90eb-d913-436a-8619-9680cf673c1f
 
 ## Additional Notes
 
